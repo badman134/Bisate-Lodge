@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bisate Lodge | Rwanda's Award-Winning Eco-Luxury Sanctuary</title>
+  
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/style.css">
+  <script src="../scripts/script.js"></script>
+  
+
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">
+        <i class="fas fa-mountain logo-icon"></i>
+        Bisate Lodge
+      </a>
+      <button class="mobile-menu-btn" id="mobileMenuBtn">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#villas">Villas</a>
+        <a href="#experiences">Experiences</a>
+        <a href="#conservation">Conservation</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+        <a href="#booking" class="btn btn-primary" style="padding: 8px 20px;">Book Now</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-slider" id="heroSlider"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <span class="hero-tagline">Wilderness Safaris</span>
+        <h1>
+          Bisate Lodge <span>An eroded volcanic cone, reinvented</span>
+        </h1>
+        <p class="hero-subtitle">Six sublime forest villas overlooking the Virunga volcanoes — arguably the finest base in Africa for mountain gorilla trekking.</p>
+        <div class="hero-buttons">
+          <a href="#booking" class="btn btn-primary">Book Your Stay</a>
+          <a href="#villas" class="btn btn-secondary">Explore Villas</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <span class="stat-number">34+</span>
+        <span class="stat-label">Awards</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">90k+</span>
+        <span class="stat-label">Trees Planted</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">6</span>
+        <span class="stat-label">Villas</span>
+      </div>
+    </div>
+    <div class="hero-slider-controls" id="sliderControls"></div>
+  </section>
+
+  <!-- Main Content Card -->
+  <div class="page">
+    <div class="content">
+      <!-- About Section -->
+      <section id="about">
+        <div class="intro-grid" data-aos="fade-up">
+          <div class="intro-text">
+            <h2>A celebration of life in Rwanda</h2>
+            <p>Wilderness Bisate is a celebration of life in Rwanda. It embraces a nourishing Earth-to-plate food journey, visionary reforestation programme, community initiatives, and rich wildlife, with a fierce passion to conserve and protect the beauty of this land, and all who call it home.</p>
+            <p>Since opening in 2017, Bisate has racked up 34 awards and continues to inspire. Six sublime en-suite forest villas, designed as an homage to Rwandan royalty, overlook unforgettable vistas over brooding Bisoke, Karisimbi and Mikeno volcanoes.</p>
+            <div class="intro-stats">
+              <div class="intro-stat">
+                <span class="number">2017</span>
+                <span class="label">Opened</span>
+              </div>
+              <div class="intro-stat">
+                <span class="number">103</span>
+                <span class="label">Local Landowners</span>
+              </div>
+              <div class="intro-stat">
+                <span class="number">43ha</span>
+                <span class="label">Property</span>
+              </div>
+            </div>
+          </div>
+          <div class="intro-image">
+            <img src="../assets/123.jfif" alt="Bisate Lodge exterior view">
+          </div>
+        </div>
+      </section>
+
+      <!-- Villas Section -->
+      <section id="villas" class="villas-showcase">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Forest Villas</h2>
+          <p class="section-subtitle">Six sumptuous villas maximise comfort, warmth and views — inspired by Rwandan royalty</p>
+        </div>
+
+        <!-- Signature Collection -->
+        <div class="villa-category" data-aos="fade-up">
+          <h3>Signature Villas</h3>
+          <div class="villas-grid">
+            <!-- Villa 1: Premium Forest Villa -->
+            <div class="villa-card">
+              <div class="villa-gallery">
+                <img src="j2.jpg" alt="Premium Villa" class="villa-main-image" id="villa1-main">
+                <div class="villa-badge">Best Seller</div>
+                <div class="villa-thumbnails">
+                  <div class="villa-thumb active" data-src="j2.jpg">
+                    <img src="j2.jpg" alt="Premium Villa view 1">
+                  </div>
+                  <div class="villa-thumb" data-src="j3.jpg">
+                    <img src="j3.jpg" alt="Premium Villa view 2">
+                  </div>
+                  <div class="villa-thumb" data-src="j4.jpg">
+                    <img src="j4.jpg" alt="Premium Villa view 3">
+                  </div>
+                </div>
+              </div>
+              <div class="villa-content">
+                <h3 class="villa-title">Premium Forest Villa</h3>
+                <div class="villa-price">$1,800 <span>/ night</span></div>
+                <p class="villa-description">91m² of luxury with panoramic volcano views, private deck, and wood-burning fireplace. Each villa comprises a generous yet intimate combination of bedroom, reception area and bathroom.</p>
+                <div class="villa-features">
+                  <span class="villa-feature"><i class="fas fa-bed"></i> King-size bed</span>
+                  <span class="villa-feature"><i class="fas fa-fire"></i> Central fireplace</span>
+                  <span class="villa-feature"><i class="fas fa-shower"></i> Indoor/outdoor shower</span>
+                  <span class="villa-feature"><i class="fas fa-wifi"></i> Complimentary WiFi</span>
+                </div>
+                <div class="villa-amenities">
+                  <h4>Included amenities:</h4>
+                  <div class="amenities-list">
+                    <span class="amenity-item"><i class="fas fa-check-circle"></i> 24hr butler</span>
+                    <span class="amenity-item"><i class="fas fa-check-circle"></i> Laundry service</span>
+                    <span class="amenity-item"><i class="fas fa-check-circle"></i> Mini bar</span>
+                    <span class="amenity-item"><i class="fas fa-check-circle"></i> Tea/coffee</span>
+                    <span class="amenity-item"><i class="fas fa-check-circle"></i> Hair dryer</span>
+                    <span class="amenity-item"><i class="fas fa-check-circle"></i> Safe</span>
+                  </div>
+                </div>
+                <div class="villa-actions">
+                  <button class="btn btn-primary view-details">View Details</button>
+                  <a href="#booking" class="btn btn-secondary">Book</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Villa 2: Executive Suite -->
+            <div class="villa-card">
+              <div class="villa-gallery">
+                <img src="j5.jpg" alt="Executive Suite" class="villa-main-image" id="villa2-main">
+                <div class="villa-badge">Luxury Choice</div>
+                <div class="villa-thumbnails">
+                  <div class="villa-thumb active" data-src="j5.jpg">
+                    <img src="j5.jpg" alt="Executive Suite view 1">
+                  </div>
+                  <div class="villa-thumb" data-src="j6.jpg">
+                    <img src="j6.jpg" alt="Executive Suite view 2">
+                  </div>
+                  <div class="villa-thumb" data-src="j7.jpg">
+                    <img src="j7.jpg" alt="Executive Suite view 3">
+                  </div>
+                </div>
+              </div>
+              <div class="villa-content">
+                <h3 class="villa-title">Executive Suite</h3>
+                <div class="villa-price">$2,200 <span>/ night</span></div>
+                <p class="villa-description">110m² suite with separate living area, enhanced privacy, and premium amenities. Features richly-detailed interiors with surfaces and screens made from woven materials with strong resonance in Rwandan culture.</p>
+                <div class="villa-features">
+                  <span class="villa-feature"><i class="fas fa-couch"></i> Separate lounge</span>
+                  <span class="villa-feature"><i class="fas fa-user-tie"></i> Dedicated butler</span>
+                  <span class="villa-feature"><i class="fas fa-wine-glass-alt"></i> Premium minibar</span>
+                  <span class="villa-feature"><i class="fas fa-spa"></i> Spa access</span>
+                </div>
+                <div class="villa-amenities">
+                  <h4>Executive amenities:</h4>
+                  <div class="amenities-list">
+                    <span class="amenity-item"><i class="fas fa-check-circle"></i> Private lounge</span>
+                    <span class="amenity-item"><i class="fas fa-check-circle"></i> Wine selection</span>
+                    <span class="amenity-item"><i class="fas fa-check-circle"></i> Daily massage</span>
+                    <span class="amenity-item"><i class="fas fa-check-circle"></i> Airport transfer</span>
+                  </div>
+                </div>
+                <div class="villa-actions">
+                  <button class="btn btn-primary view-details">View Details</button>
+                  <a href="#booking" class="btn btn-secondary">Book</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experiences Section -->
+      <section id="experiences">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Bisate Experiences</h2>
+          <p class="section-subtitle">‘They are close’, the guide whispers. And suddenly, before you is an enormous mountain gorilla.</p>
+        </div>
+
+        <div class="experiences-grid">
+          <div class="experience-card" data-aos="fade-up">
+            <img src="j8.jpg" alt="Gorilla trekking">
+            <div class="experience-overlay">
+              <h4>Gorilla Trekking</h4>
+              <p>Spend a precious hour with these gentle giants</p>
+            </div>
+          </div>
+          <div class="experience-card" data-aos="fade-up" data-aos-delay="50">
+            <img src="j9.jpg" alt="Golden monkeys">
+            <div class="experience-overlay">
+              <h4>Golden Monkey Tracking</h4>
+              <p>Endemic to the Virungas, favours bamboo forest</p>
+            </div>
+          </div>
+          <div class="experience-card" data-aos="fade-up" data-aos-delay="100">
+            <img src="j10.jpg" alt="Nature walks">
+            <div class="experience-overlay">
+              <h4>Nature & Bird Walks</h4>
+              <p>Explore trails where birdlife proliferates</p>
+            </div>
+          </div>
+          <div class="experience-card" data-aos="fade-up" data-aos-delay="150">
+            <img src="j11.jpg" alt="Community visit">
+            <div class="experience-overlay">
+              <h4>Community Engagement</h4>
+              <p>Meet the people behind Bisate</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Conservation Section -->
+      <section id="conservation" class="conservation-section" data-aos="fade-up">
+        <h2 class="section-title" style="color: white;">Leading Conservation Tourism</h2>
+        <p class="section-subtitle" style="color: rgba(255,255,255,0.8);">A model of conservation tourism, our reforestation project invites you to join us by planting a tree.</p>
+        
+        <div class="conservation-stats">
+          <div class="conservation-stat">
+            <span class="number">90,000+</span>
+            <span class="label">Indigenous trees planted</span>
+          </div>
+          <div class="conservation-stat">
+            <span class="number">43ha</span>
+            <span class="label">Property under restoration</span>
+          </div>
+          <div class="conservation-stat">
+            <span class="number">200+</span>
+            <span class="label">Bird species</span>
+          </div>
+          <div class="conservation-stat">
+            <span class="number">12</span>
+            <span class="label">Habituated gorilla groups</span>
+          </div>
+        </div>
+
+        <div class="conservation-grid">
+          <div class="conservation-text">
+            <h3>Restoring the natural amphitheatre</h3>
+            <p>Bisate is located in the natural amphitheatre of an eroded volcanic cone and has dramatic views of the peaks of the volcanoes Bisoke and Karisimbi. Every guest has the opportunity to contribute to Bisate's reforestation project, which has already seen some 90,000 indigenous trees planted to date.</p>
+            <p>The reforestation program is already proving a success: Bisate's camera trap has captured serval cats, African buffalo, bushbuck, and even the occasional hairy gorilla arm.</p>
+            <a href="#booking" class="btn btn-primary">Plant a Tree</a>
+          </div>
+          <div class="conservation-image">
+            <img src="j12.jpg" alt="Reforestation">
+          </div>
+        </div>
+      </section>
+
+      <!-- Awards Section -->
+      <section class="awards-section">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Awards & Recognition</h2>
+          <p class="section-subtitle">Award-winning Bisate sets the bar for visionary conservation tourism in Rwanda</p>
+        </div>
+
+        <div class="awards-grid">
+          <div class="award-card" data-aos="fade-up">
+            <div class="award-icon"><i class="fas fa-trophy"></i></div>
+            <div class="award-year">2022</div>
+            <div class="award-title">T+L World's Best Awards</div>
+          </div>
+          <div class="award-card" data-aos="fade-up" data-aos-delay="50">
+            <div class="award-icon"><i class="fas fa-globe"></i></div>
+            <div class="award-year">2020</div>
+            <div class="award-title">Condé Nast Traveller Gold List</div>
+          </div>
+          <div class="award-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="award-icon"><i class="fas fa-star"></i></div>
+            <div class="award-year">2018</div>
+            <div class="award-title">Condé Nast Traveller Hot List</div>
+          </div>
+          <div class="award-card" data-aos="fade-up" data-aos-delay="150">
+            <div class="award-icon"><i class="fas fa-leaf"></i></div>
+            <div class="award-year">2017</div>
+            <div class="award-title">World Travel Awards</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="testimonials-section">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Guest Stories</h2>
+          <p class="section-subtitle">What our guests say about their Bisate experience</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card" data-aos="fade-up">
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">"Probably the best base camp for spotting gorillas on the planet. The luxury level here is no joke: Wilderness Safaris is one of Africa's finest operators."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <img src="j13.jpg" alt="Guest">
+              </div>
+              <div class="author-info">
+                <h4>Condé Nast Traveler</h4>
+                <p>Review</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="50">
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">"You are, each one of you, an amazing reflection of the beauty, kindness and generosity of Rwanda, and you have all contributed to each of us falling hopelessly in love with this spectacular country."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <img src="j14.jpg" alt="Guest">
+              </div>
+              <div class="author-info">
+                <h4>Bisate Guest</h4>
+                <p>Visitor comment</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">"This has to be one of the most visually distinctive lodges you'll find anywhere. Its six cliffside villas, shaped like sci-fi orbs with thatch-effect roofing, look out onto Rwanda's Volcanoes National Park."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <img src="j15.jpg" alt="Guest">
+              </div>
+              <div class="author-info">
+                <h4>CN Traveller</h4>
+                <p>Review</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Section -->
+      <section id="gallery">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Gallery</h2>
+          <p class="section-subtitle">A visual journey through Bisate Lodge</p>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid"></div>
+      </section>
+
+      <!-- Booking Section -->
+      <section id="booking">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Book Your Stay</h2>
+          <p class="section-subtitle">Let us craft your journey — talk to a travel designer today</p>
+        </div>
+
+        <div class="booking-form" data-aos="fade-up">
+          <form id="bookingForm">
+            <div class="form-grid">
+              <div class="form-group">
+                <label>Full Name *</label>
+                <input type="text" id="name" required placeholder="Enter your full name">
+              </div>
+              <div class="form-group">
+                <label>Email *</label>
+                <input type="email" id="email" required placeholder="Enter your email">
+              </div>
+              <div class="form-group">
+                <label>Check-in *</label>
+                <input type="date" id="checkin" required>
+              </div>
+              <div class="form-group">
+                <label>Check-out *</label>
+                <input type="date" id="checkout" required>
+              </div>
+              <div class="form-group">
+                <label>Villa Type *</label>
+                <select id="villaSelect" required>
+                  <option value="1800">Premium Forest Villa - $1,800/night</option>
+                  <option value="2200">Executive Suite - $2,200/night</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Adults *</label>
+                <select id="adults" required>
+                  <option>1</option>
+                  <option selected>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                </select>
+              </div>
+              <div class="form-group full-width">
+                <label>Special Requests</label>
+                <textarea id="requests" rows="3" placeholder="Gorilla trekking permits, dietary requirements, celebrations..."></textarea>
+              </div>
+            </div>
+            
+            <div class="booking-total">
+              <span class="total-label">Total (3 nights):</span>
+              <span class="total-price" id="totalPrice">$5,400</span>
+            </div>
+
+            <button type="submit" class="btn btn-primary submit-btn">Request Booking</button>
+          </form>
+          <div id="bookingMessage" class="booking-message"></div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <div class="footer">
+          <div class="footer-content">
+            <div class="footer-column">
+              <h4>Bisate Lodge</h4>
+              <p>An award-winning eco-chic rainforest lodge nestled in a mesmerising volcanic landscape. Located next to Volcanoes National Park in northwest Rwanda.</p>
+              <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-tripadvisor"></i></a>
+              </div>
+            </div>
+            <div class="footer-column">
+              <h4>Quick Links</h4>
+              <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#villas">Villas</a></li>
+                <li><a href="#experiences">Experiences</a></li>
+                <li><a href="#conservation">Conservation</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h4>Contact</h4>
+              <ul class="footer-links">
+                <li><i class="fas fa-map-marker-alt"></i> Volcanoes National Park, Rwanda</li>
+                <li><i class="fas fa-phone"></i> +250 788 123 456</li>
+                <li><i class="fas fa-envelope"></i> reservations@bisatelodge.com</li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h4>Awards</h4>
+              <p>34+ awards including Condé Nast Traveller Gold List, T+L World's Best, and World Travel Awards.</p>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>&copy; 2026 Wilderness Bisate. All rights reserved. Part of Wilderness Destinations.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal" id="imageModal">
+    <span class="modal-close" id="modalClose">&times;</span>
+    <img class="modal-content" id="modalImage">
+    <div id="modalCaption"></div>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+</body>
+</html>
